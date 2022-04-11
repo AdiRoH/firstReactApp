@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\public",
+    "\\src",
+    "\\src\\assets",
+    "\\src\\assets\\Dashboard",
+    "\\src\\assets\\pages",
+    "\\src\\assets\\pages\\Login",
+    "\\src\\assets\\Preferences"
+  ],
+  "SelectedNode": "\\src\\assets\\pages\\Login\\Login.css",
+  "PreviewInSolutionExplorer": false
+}
