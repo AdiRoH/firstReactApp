@@ -3,12 +3,11 @@
     "",
     "\\public",
     "\\src",
-    "\\src\\assets",
-    "\\src\\assets\\Dashboard",
-    "\\src\\assets\\pages",
-    "\\src\\assets\\pages\\Login",
-    "\\src\\assets\\Preferences"
+    "\\src\\components",
+    "\\src\\components\\App",
+    "\\src\\components\\pages",
+    "\\src\\components\\pages\\Login"
   ],
-  "SelectedNode": "\\src\\assets\\pages\\Login\\Login.css",
+  "SelectedNode": "\\src\\App.js",
   "PreviewInSolutionExplorer": false
 }

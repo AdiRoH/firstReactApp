@@ -1,12 +1,16 @@
-import logo from './logo.svg';
-import React, { useState } from 'react';
+import React from 'react';
 import './App.css';
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
-import Login from './/assets/pages/Login/Login'
-import Dashboard from './/assets/Dashboard/Dashboard';
-import Preferences from './/assets/Preferences/Preferences';
+import Login from './/components/pages/Login/Login'
+import Dashboard from './/components/Dashboard/Dashboard';
+import Preferences from './/components/Preferences/Preferences';
+import useToken from './/components/App/useToken';
+
+
+
+
 function App() {
-    const [token, setToken] = useState();
+    const { token, setToken } = useToken();
     if (!token) {
         return <Login setToken={setToken} />
     }
@@ -25,4 +29,4 @@ function App() {
   
 }
 
-export default App;
+export default App; 
